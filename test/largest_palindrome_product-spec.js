@@ -18,8 +18,25 @@ describe("Find The Largest Palindrome Product", function () {
 
     expect(product.palindromeNumber).to.equal(906609);
 
-    // add your tests here
-    //
-    //
+    expect([913, 993]).to.include(product.factor_0);
+    expect([913, 993]).to.include(product.factor_1);
+  });
+
+  it("of two 4 digit numbers", function () {
+    var product = findPalindromeProduct(4);
+
+    expect(product.palindromeNumber).to.equal(99000099);
+
+    expect([9999, 9901]).to.include(product.factor_0);
+    expect([9999, 9901]).to.include(product.factor_1);
+  });
+
+  it("of two 5 digit numbers", function () {
+    var product = findPalindromeProduct(5);
+
+    expect(product.palindromeNumber).to.equal(9966006699);
+
+    expect([99979, 99681]).to.include(product.factor_0);
+    expect([99979, 99681]).to.include(product.factor_1);
   });
 });
