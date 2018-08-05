@@ -7,6 +7,14 @@ The **first argument and only argument** sets the requirement for the **total di
     10 is a two-digit number
     1996 is a four-digit number
 
+## Advanced
+
+Write a test for finding the largest palindrome product of 4 digits, and another test for 5 digits.
+
+Make the tests pass and push to your `advanced` branch.
+
+---
+
 There are **2** tests initially, make the tests pass.
 
 1. Find the largest palindrome made from the product of 2 two-digit numbers is 9009 = 91 × 99.
